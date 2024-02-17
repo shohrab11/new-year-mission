@@ -79,7 +79,7 @@ body{
     height: auto;
 }
 .party-section{
-    background-image: url('../img/Vectorrr.png'),url('../img/Group70.png');
+    background-image: url('../img/Group70.png'),url('../img/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: bottom right, right bottom;
     width: 1040px;
