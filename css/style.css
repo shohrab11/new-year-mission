@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+}
+.hero-section{
+    background-image: url('../img/Banner-Image.png');
+    background-repeat: no-repeat;
+    width: 1040px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px 140px;
+   
+}
+.title-head{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title-heading{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+.hero-content{
+    padding: 200px 0px;
+}
+.offer-section{
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    margin: 50px auto;
+}
+.offer-discount{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer-text{
+    margin-top: 48px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.offer-title{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer-img{
+    margin-top: 48px;
+    
+}
+.offer-img img{
+    width: 440px;
+    height: auto;
+}
+.party-section{
+    background-image: url('../img/Vectorrr.png');
+    width: 1040px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px 140px;
+}
+.party-title{
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 28px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px;
+width: 600px;
+}
+.party-text{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.party-btn{
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.venue-section{
+    width: 1040px;
+    height: 250px;
+    border-radius: 16px;
+    margin: 50px 140px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    
+}
+
+.portfolio-section-img{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* footer section start here */
+.footer-content{
+    width: auto;
+    height: 450px;
+    background-color: #070211;
+}
+.footer-top-content{
+    display: flex;
+    padding: 100px 100px 10px;
+    justify-content: space-between;
+} 
+.footer-top-left-text, .footer-top-right-text{
+    width: 25%;
+}
+
+.footer-top-right-text-top, .footer-top-right-text-bottom{
+    display: flex;
+}
+.text-white{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-bottom-content{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 100px;    
+}
+.footer-middle-content{
+   padding: 30px 100px;
+   
+}
+.icon{
+    border-top: 1px solid #ffffff26;
+   border-bottom: 1px solid #ffffff26;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon img{
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+.icon-img{
+    padding: 20px 400px;
+}
+.footer-bottom-right-content>button{
+    background-color: #070211;
+    border: none;
+}
